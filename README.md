@@ -15,18 +15,18 @@ interacting with that database.
 ## Endpoints
 
 ### POST /point
-**Content-Type:** application/json
-**Accept:** application/json
-**Body:** {"lat": "<lat as string>", "lng" : "<lng as string>"}
+**Content-Type:** application/json  
+**Accept:** application/json  
+**Body:** {"lat": "<lat as string>", "lng" : "<lng as string>"}  
 **Returns:** {"lat": "<lat>", "lng": "<lng>", "geohash": "<geohash of lat/lng>"
   "iso\_country": "<3-character ISO-3166 Code>", "adm0" : "<administrative level
   0 name", "adm1" : "<administrative level 1 name>", "adm2" : "<administrative level
   2 name>", "error" : "<textual errors>"}
 
 ### POST /points
-**Content-Type:** application/json
-**Accept:** application/json
-**Body:** [{"lat": "<lat as string>", "lng" : "<lng as string>"}, …]
+**Content-Type:** application/json  
+**Accept:** application/json  
+**Body:** [{"lat": "<lat as string>", "lng" : "<lng as string>"}, …]  
 **Returns:** [{"lat": "<lat>", "lng": "<lng>", "geohash": "<geohash of lat/lng>"
   "iso\_country": "<3-character ISO-3166 Code>", "adm0" : "<administrative level
   0 name", "adm1" : "<administrative level 1 name>", "adm2" : "<administrative level
