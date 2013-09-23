@@ -1,0 +1,10 @@
+# Maven Ignore
+target
+# Eclipse Ignore
+.classpath
+.settings
+.project
+# Vim Ignore
+*.swp
+# Custom Ignore
+config/navi-test.yml
